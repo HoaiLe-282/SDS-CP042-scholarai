@@ -1,16 +1,16 @@
 # Contains all libraries that are needed for this project
 
 # Data manipulation and analysis
-pandas
-numpy
+# pandas
+# numpy
 
 # Visualization
-matplotlib
-seaborn
-plotly
+# matplotlib
+# seaborn
+# plotly
 
 # Machine learning
-scikit-learn
+# scikit-learn
 # xgboost
 # lightgbm
 # catboost
@@ -27,6 +27,7 @@ scikit-learn
 # Jupyter support
 jupyter
 notebook
+ipykernel
 
 # Model evaluation
 # statsmodels
@@ -37,3 +38,6 @@ notebook
 # Optional: Data connectors
 # sqlalchemy
 # openpyxl
+
+openai-agents
+python-dotenv
