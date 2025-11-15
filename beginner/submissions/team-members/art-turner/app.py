@@ -405,7 +405,7 @@ def main():
     app.launch(
         server_name="0.0.0.0",  # Allow external access
         server_port=7860,
-        share=False,  # Set to True to create a public link
+        share=True,  # Required for Hugging Face Spaces
         show_error=True
     )
 
