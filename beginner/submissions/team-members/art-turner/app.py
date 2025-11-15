@@ -402,10 +402,11 @@ def main():
     app = create_app()
 
     # Launch the app
+    # HF Spaces provides its own public URL, so share=False
     app.launch(
         server_name="0.0.0.0",  # Allow external access
         server_port=7860,
-        share=True,  # Required for Hugging Face Spaces
+        share=False,  # HF Spaces handles public URLs
         show_error=True
     )
 
